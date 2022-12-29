@@ -1,5 +1,9 @@
 const axios = require('axios')
 
+//This node js script will tell you how many of an NFT template is held by any WAX account
+
+//Edit these 4 lines below and then run `node check_for_template` from your console
+
 const COLLECTION_NAME = "hoodpunknfts"
 const SCHEMA_NAME = "wojakpacks"
 const TEMPLATE_ID = 515930
